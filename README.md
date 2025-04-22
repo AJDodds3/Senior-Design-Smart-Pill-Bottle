@@ -18,8 +18,8 @@ Key Files
   - `combination.py` (image classification)
   - `loadcell.py` (weight measurement via load cell)
   - `stepper_control.py` (lock/unlock pill bottle)
-=
-Before running any scripts, **activate your Python virtual environment**. You may have different environments depending on your setup:
+
+Before running any scripts, activate your python environment. You may have different environments depending on your setup:
 
 
 source pill_verification_env/bin/activate
@@ -27,6 +27,7 @@ source pillenv/bin/activate
 This is dependent on which raspberry pi you are using just use type ls in /home/pi and see which environment you have
 To check the libraries in the environment use pip list
 To make a new environment use venv but you will need to reinstall libraries
+In order to actually run a script do python3 name_of_script_here.py
 
 To actually train new models use feb_model_training.py and feel free to change the type of neural network
 You will need a python environment in your IDE with all the required libraries listed in the python file
